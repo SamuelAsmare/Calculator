@@ -1,0 +1,215 @@
+ body {
+            background-color: black;
+            background:url('leaf.avif');
+            filter:blur(0.5px);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+           
+        }
+        
+       .all-values {
+        position: absolute;
+        top: 100px;
+        transform:scale(1.0, 1.0);
+        transition: all 0.2s ease-in-out;
+        border-radius:20px;
+        border: black solid;
+        width: 400px;
+        height: 600px;
+        padding:10px;
+        align-items: center;
+        justify-content:center;
+        box-shadow: rgb(75, 74, 74) -1px -1Px 10px 10px;
+        background-color:black;
+        filter:none;
+        
+       }
+       .all-values:hover{
+        transform:scale(1.009);
+        transition:0.2s ease-in;
+        }
+       .nums{
+        padding: 10px;
+        font-size: 20px;
+        border-radius:5px;
+        margin:5px;
+       }
+      .sol{
+          width:85%;
+          height:30px;
+          border: none;
+          color:white;
+          font-size: 25px;
+          background-color: transparent;
+          margin:20px;
+       }
+       .sol:focus{
+        border: none;  
+        outline:none;    }
+      .nums{
+        margin:5px;
+        width:55px;
+        height:55px;
+        border: none;
+        border-radius: 50%;
+        background-color:rgb(94, 87, 87);
+        color:white;
+ 
+      }
+      .nums:active{
+        background-color: rgb(111, 104, 104);
+        transition: 0.2s  ease;
+        }
+        .nums:hover{
+        transform:scale(0.95);
+        transition: 0.2s ease;
+        }
+         
+         .op{
+            margin:5px;
+        transform:scale(1.02);
+        width:50px;
+        border:none;
+        height:50px;
+        border-radius: 50%;
+        font-size:25px;
+        background-color: rgba(248, 171, 62, 0.812);
+        color:white;
+        
+         }
+         .op:hover{
+            transform:scale(0.95);
+         }
+         .op:active{
+             background-color: rgb(111, 104, 104);
+             transition: 0.2s  ease;
+    
+         }
+         .othop{
+             margin:10px;
+        transform:scale(1.02);
+        transition:0.0001s ease-in-out;
+        width:50px;
+        border:none;
+         font-size:20px;
+        height:50px;
+        border-radius: 50%;
+        background-color: rgb(241, 238, 238);
+        color:black;
+         }
+         .othop:active{
+        background-color: rgb(111, 104, 104);
+        transition: 0.2s  ease;
+        }
+        .othop:hover{
+        transform:scale(0.95);
+        transition: 0.2s ease;
+        }
+    #one{
+        position:absolute;
+        left: 87px;
+
+    }
+    #two{
+        position:absolute;
+        left: 160px;
+    }
+    #three{
+        position:absolute;
+        left: 236px;
+    }
+    #mul{
+        position:absolute;
+        left: 307px;
+    }
+    #four{
+        position:absolute;
+        left: 87px;
+        top: 230px;
+    }
+    #five{
+        position:absolute;
+        left: 160px;
+        top: 230px;
+    }
+    #six{
+        position:absolute;
+        left: 236px;
+        top: 230px;
+    }
+    #minus{
+        position:absolute;
+        left: 304px;
+        top: 230px;
+    }#seven{
+        position:absolute;
+        left: 87px;
+        top: 300px;
+
+    }
+    #eight{
+        position:absolute;
+        left: 160px;
+        top: 300px;
+    }
+    #nine{
+        position:absolute;
+        left: 236px;
+        top: 300px;
+    }
+    #plus{
+        position:absolute;
+        left: 304px;
+        top: 300px;
+    }
+    #zero{
+        position:absolute;
+        left: 87px;
+        top: 370px;
+        width:120px;
+        height:50px;
+        border-radius:20px;
+
+    }
+    #point{
+        position:absolute;
+        left: 236px;
+        top: 367px;
+    }
+    #equal{
+        position:absolute;
+        left: 304px;
+        top:367px;
+    }
+    #clear{
+        position:absolute;
+        left: 200px;
+        top:447px;
+        width:120px;
+        height:50px;
+        border-radius:20px;
+    }
+    .image{
+        width:250px;
+        position:absolute;
+        left:30px;
+        top: 40px;
+        mix-blend-mode:multiply;
+        border-radius:100px;
+        background-color:transparent;
+
+    }
+    @keyframes sam{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg);
+        }
+    }
